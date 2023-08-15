@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  margin-top: 20px;
+  max-width: 900px;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 4px;
+  background-color: lavender;
+}
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+pre{
+    background-color: #fff;
+    margin-top: 20px;
+}
+p{
+  background-color: lavender;
+  margin-top: 100px;
+  color: blue;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 2px;
+}
+.principal{
+  height: 400px;
+}
+#btnMaior,#btnDestaques,#btnLimpar{
+  width: 50%;
+  margin: 0 auto;
+}

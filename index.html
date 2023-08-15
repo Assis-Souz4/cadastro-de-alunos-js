@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro das Notas dos Alunos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class='principal'>
+            <h1>Cadastro das Notas dos Alunos:</h1>
+            <hr>
+
+            <form action="#">
+                <label for="inNome">
+                    Aluno:
+                    <input type="text" id="inNome" required autofocus placeholder="Nome do Aluno">
+                </label>
+                <label for="inNota">
+                    Nota:
+                    <input type="number" placeholder="0.0" step="0.01" min="0" max="10" id="inNota" required>
+                    <input type="submit" value="Cadastrar">
+                </label>
+                <input type="button" value="Maior Nota" id="btnMaior">
+                <input type="button" value="Destaques" id="btnDestaques">
+                <input type="reset" value="Limpar" id="btnLimpar">
+            </form>
+
+            <pre></pre>
+            <p></p>
+
+        </section>
+    </main>
+    <script src="./mais.js"></script>
+</body>
+
+</html>
