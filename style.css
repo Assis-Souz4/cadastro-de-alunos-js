@@ -45,9 +45,8 @@ p{
   margin-top: 100px;
   color: blue;
   font-weight: bold;
-  padding: 0;
+  padding: 100px 2px 0 0;
   text-align: center;
-  padding-bottom: 2px;
 }
 .principal{
   height: 400px;
